@@ -9,11 +9,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    bool isMale = true;
+    num temp = 30.5;
+
+    var day = "Tuesday";
+    const pi = 3.14;
+
     return MaterialApp(
-     home: Material(
-      child: Center(
-        child: Container(
-          child: Text("welcome to 30 day flutter"),
-    ))));
+      home: HomePage(),
+    );
   }
 }
